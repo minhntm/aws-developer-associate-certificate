@@ -35,7 +35,7 @@
 - Example:
     - write 10 objects per seconds of 2 KB each ⇒ 2 * 10 = 20 WCU
     - write 6 objects per second of 4.5 KB each ⇒ 6 * 5 = 30 WCU (4.5KB rounded ⇒ 5KB)
-    - write 120 objects per minute of 2KB each ⇒ 120 / 6 * 2 = 4 WCU
+    - write 120 objects per minute of 2KB each ⇒ 120 / 60 * 2 = 4 WCU (120 objects per minute converting to objects per second 120/60 = 2 objects per second)
 
 ### Read Capacity Units
 
